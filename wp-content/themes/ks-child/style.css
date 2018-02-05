@@ -1,0 +1,302 @@
+/*
+ Theme Name:   KS Child
+ Theme URI:    http://www.killershark.me
+ Description:  KS Child theme, child of KS Base Theme
+ Author:       Joel Murphy
+ Author URI:   http://www.killershark.me
+ Template:     ks-base
+ Version:      1.0.0
+*/
+
+h1, h2, h3, h4, h5, h6,
+#sub-nav {
+	font-family: "le-monde-livre-classic-byol";
+	margin-bottom: 1rem;
+}
+body b, body strong {
+	font-weight: 700;
+}
+#bar-logos {
+	background: #366276;
+}
+#bar-logos img {
+	display: block;
+	margin: 0 auto;
+}
+.jumbotron .overlay {
+	opacity: 0.4;
+}
+.slide2 .slide-title {
+	top: 75%;
+}
+/** REVIEWS **/
+#page .mjRatingsListDetails {
+	padding: 0;
+}
+#page .mjReview,
+.testimonial {
+	padding: 12px;
+	background: #f7f7f7;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	margin-bottom: 1rem;
+	position: relative;
+}
+#page .mjRatingsListDetails h2 {
+	margin-bottom: 1rem;
+}
+#page .mjStar,
+.testimonial i.fa-star {
+	color: #dab007;
+	margin-left: 0;
+}
+#page .mjPostingDate {
+	display: block;
+	font-size: small;
+	margin-left: 0;
+	padding: 3px 0;
+	margin: 6px 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.video-container {
+	margin-bottom: 1rem;
+}
+
+/* DREAM SMILE BAR 
+-------------------------------------------------- */
+#dreamSmile {
+	background-color: #366276;
+	background-image: -webkit-gradient(linear, left center, right center, from(rgb(54, 98, 118)), to(rgb(127, 155, 168)));
+	background-image: -webkit-linear-gradient(left, rgb(54, 98, 118), rgb(127, 155, 168));
+	background-image: -moz-linear-gradient(left, rgb(54, 98, 118), rgb(127, 155, 168));
+	background-image: -o-linear-gradient(left, rgb(54, 98, 118), rgb(127, 155, 168));
+	background-image: -ms-linear-gradient(left, rgb(54, 98, 118), rgb(127, 155, 168));
+	background-image: linear-gradient(left, rgb(54, 98, 118), rgb(127, 155, 168));
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,StartColorStr='#366276', EndColorStr='#7f9ba8');
+	color: #fff;
+	text-shadow: rgba(0, 0, 0, 0.5) 0 2px 3px;
+	font-size: 15px;
+}
+#dreamSmile img {
+	max-width: 130px;
+}
+#dreamSmile a {
+	color: #fff;
+}
+#dreamSmile a:hover {
+	opacity: 0.9;
+}
+#bar-announcement {
+	margin-bottom: 0rem;
+}
+
+/* SUB NAV
+-------------------------------------------------- */
+#sub-nav {
+	position: absolute;
+	z-index: 100;
+	left: -15px;
+	top: 50%;
+	right: 0;
+	height: 250px;
+	margin-top: -125px;
+}
+#sub-nav a {
+	display: block;
+	padding: 1rem;
+	color: #fff;
+	margin-bottom: .5rem;
+}
+#sub-nav a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+#sub-nav h1,
+#sub-nav p {
+	color: #fff !important;
+}
+#sub-nav a h4 {
+	color: #fff;
+	margin-bottom: 0;
+}
+#sub-nav a i.fa-long-arrow-right {
+	opacity: 0;
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+	color: #92b3d3;
+	display: none;
+}
+#sub-nav a:hover i.fa-long-arrow-right {
+	opacity: 1;
+}
+/*#sub-nav h1 {
+	font-size: 1.5rem !important;
+}*/
+#sub-nav p {
+	font-family: Helvetica, sans-serif;
+	text-transform: none;
+	font-size: 1.1rem !important;
+}
+#sub-nav h1 small {
+	opacity: 1;
+}
+#sub-nav .fa-star {
+	color: #fba51c;
+	margin-right: 2px;
+	text-shadow: rgba(0, 0, 0, 0.3) 0 2px 3px;
+}
+
+/* FEATURE BOXES
+-------------------------------------------------- */
+#feature-boxes {
+	max-width: none;
+	padding-top: 2rem;
+}
+#feature-boxes a {
+	display: block;
+	border-left: 2px solid #fff;
+	border-right: 2px solid #fff;
+}
+.fbox-img-overlay h5 {
+	display: inline-block;
+	margin-bottom: .5rem !important;
+	padding: .5rem 0;
+}
+.fbox-img-overlay i {
+	opacity: 0;
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+}
+.fbox-img-overlay a:hover i {
+	opacity: 1;
+}
+
+/* CASE STUDIES BUTTON
+-------------------------------------------------- */
+#case-studies {
+	padding: 24px;
+	background: #f7f7f7;
+	-moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+	position: fixed;
+	right: 0;
+	bottom: 60px;
+	z-index: 100;
+	width: 200px;
+	border-top: 3px solid #366276;
+	-webkit-border-bottom-left-radius: 40px;
+	-moz-border-radius-bottomleft: 40px;
+	border-bottom-left-radius: 40px;
+	font-size: 13px;
+}
+
+#case-studies img {
+	max-width: 50px;
+	margin-bottom: 6px;
+}
+.close-case {
+	position: absolute;
+	top: 8px;
+	left: 8px;
+	color: #ed1c24;
+}
+#case-studies.burst {
+	padding: 0px;
+	background: none;
+	box-shadow: none;
+	right: 0;
+	bottom: 20px;
+	border-top: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	border-bottom-left-radius: 0px;
+}
+#case-studies.burst img {
+	max-width: 150px;
+	margin-bottom: 0px;
+}
+.close-case.burst-close {
+	top: 14px;
+    left: 21px;
+	cursor: pointer;
+}
+#fixed-social {
+	z-index: 150;
+}
+
+/* Minimum width of 768 pixels. */
+@media screen and (min-width: 768px) {
+	#sub-nav {
+		left: 0;
+		top: 35%;
+	}
+	#sub-nav a i.fa-long-arrow-right {
+		display: inline-block;
+	}
+}
+
+/* Minimum width of 992 pixels. */
+@media screen and (min-width: 992px) {
+	.home .wrapper-navbar {
+		position: absolute;
+		top: 0;
+		right: 0;
+		left: 0;
+		z-index: 200;
+	}
+	.home #navbarNav .nav-item > a {
+		color: #fff;
+	}
+	#nav-top {
+		background: #fff;
+	}
+	.home #logo {
+		margin-top: -8px;
+	}
+	#page .mjReview,
+	.testimonial,
+	.review-item {
+		padding: 24px;
+	}
+	#sub-nav {
+		height: auto;
+		top: auto;
+		right: 0;
+		bottom: 2rem;
+		margin-top: 0;
+	}
+	/*#sub-nav h1 {
+		font-size: 2rem !important;
+	}*/
+}
+/* Minimum width of 1600 pixels. */
+@media screen and (min-width: 1600px) {
+	/*#sub-nav h1 {
+		font-size: 3rem !important;
+	}*/
+	#sub-nav .fa-star {
+		font-size: 1.5rem;
+	}
+}
+
+/* Height Based */
+/* Max screen height of 800 pixels. */
+@media screen and (max-height: 800px) {
+	#featureHeader {
+		/*height: 575px;*/
+		height: auto;
+		overflow: hidden;
+	}
+	.slide-title {
+		/*top: 45%;*/
+		top: 50%;
+	}
+}

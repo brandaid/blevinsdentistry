@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento senza titolo</title>
+
+
+<link rel="stylesheet" type="text/css" href="slick.css"/>
+<link rel="stylesheet" type="text/css" href="slick-theme.css"/>
+
+<style>
+body {
+	padding: 100px;
+	background:#09F;	
+}
+.ggs_wrapper {
+	height: 200px;	
+}
+</style>
+
+</head>
+
+<body>
+
+
+<div class="data" data-slick='{"slidesToShow": 3, "slidesToScroll": 3}'>
+    
+    <section>
+    	<div class="ggs_wrapper ggs_lightbox">
+        	<img src="https://lh4.googleusercontent.com/-lXJwv9D4dCM/VAw7aTNCsxI/AAAAAAAAAM4/mZR5vsXvDLQ/s2000/lSed5VXIQnOw7PMfB9ht_IMG_1642.jpg" ggs-big-img="" />
+            <div class="ggs_overlay_wrap">
+            	<div class="ggs_sec_ol">
+                	<span></span>
+                </div>    
+            	<h3>News excerpt 2</h3>
+            </div>
+    	</div>    
+    </section>
+    
+    <section>
+    	<div class="ggs_wrapper ggs_link">
+        	<img src="https://lh6.googleusercontent.com/-weXKWwXMkjI/VAw7MywCIiI/AAAAAAAAAMQ/DwzPfJ1Gb4s/s2000/Ta3Z3hRxTTCTHmi1s1B1_Brooklyn_Bridge_by_Anders_Jilden.jpg" ggs-big-img="" />
+            <div class="ggs_overlay_wrap">
+            	<div class="ggs_sec_ol">
+                	<span></span>
+                </div>    
+            	<h3>News excerpt 2</h3>
+            </div>
+    	</div>    
+    </section>
+    
+    <section>
+    	<div class="ggs_wrapper">
+        	<img src="https://lh3.googleusercontent.com/-Y-_Hr-VIb-4/VAw7bZxROoI/AAAAAAAAANA/luZ34griRFI/s2000/lUUnN7VGSoWZ3noefeH7_Baker%252520Beach-12.jpg" ggs-big-img="" />
+            <div class="ggs_overlay_wrap">
+            	<div class="ggs_sec_ol">
+                	<span></span>
+                </div>    
+            	<h3>News excerpt 2</h3>
+            </div>
+    	</div>    
+    </section>
+    
+    
+    <!--<section><h3>1</h3></section>
+    <section><h3>2</h3></section>
+    <section><h3>3</h3></section>
+    <section><h3>4</h3></section>
+    <section><h3>5</h3></section>
+    <section><h3>6</h3></section>
+    <section><h3>7</h3></section>
+    <section><h3>8</h3></section>
+    <section><h3>9</h3></section>
+    <section><h3>10</h3></section> -->
+</div>
+
+
+
+<script type="text/javascript" src="jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="slick.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.data').slick({
+	responsive: [{
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1
+      }
+    }],
+	rows: 1,
+	dots: true,
+	infinite: true,
+	lazyLoad: 'progressive',
+	pauseOnHover: true,
+	respondTo: 'slider',
+	autoplaySpeed: 3000,
+	autoplay: true, //false,
+	
+	//centerMode: true,
+	//vertical: true
+  });
+  
+  $(document.body).on('click', 'h3', function(){
+	 console.log('do something'); 
+  });
+});
+</script> 
+
+</body>
+</html>

@@ -1,0 +1,272 @@
+# Translation of Plugins - Widget Context - Development (trunk) in Danish
+# This file is distributed under the same license as the Plugins - Widget Context - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-12-09 18:01:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: da_DK\n"
+"Project-Id-Version: Plugins - Widget Context - Development (trunk)\n"
+
+#. Plugin URI of the plugin/theme
+msgid "https://widgetcontext.com"
+msgstr "https://widgetcontext.com"
+
+#: class/class-widget-context.php:568
+msgid "Settings"
+msgstr "Indstillinger"
+
+#. Author URI of the plugin/theme
+msgid "https://kaspars.net"
+msgstr "https://kaspars.net"
+
+#. Author of the plugin/theme
+msgid "Kaspars Dambis"
+msgstr "Kaspars Dambis"
+
+#. Description of the plugin/theme
+msgid "Show or hide widgets depending on the section of the site that is being viewed."
+msgstr "Viser eller skjuler widgets afhængeligt at hvilken sektion af sitet der bliver vist."
+
+#: class/class-widget-context.php:993
+msgid "Subscribe"
+msgstr "Tilmeld"
+
+#: class/class-widget-context.php:992
+msgid "Your Email"
+msgstr "Din e-mail"
+
+#: class/class-widget-context.php:991
+msgid "Your Name"
+msgstr "Dit navn"
+
+#: class/class-widget-context.php:988
+msgid "Subscribe to receive news & updates about the plugin."
+msgstr "Abonner på vores e-mail-nyhedsbrev for at modtage opdateringer."
+
+#: class/class-widget-context.php:987
+msgid "News & Updates"
+msgstr "Nyheder & opdateringer"
+
+#: class/class-widget-context.php:982
+msgid "Widget Context is created and maintained by %s."
+msgstr "Widget Context er udviklet og vedligeholdes af %s."
+
+#: class/class-widget-context.php:965
+msgid "Enabled Context Modules"
+msgstr "Aktivér  moduler"
+
+#: class/class-widget-context.php:759
+msgid "No options available"
+msgstr "Ingen indstillinger tilgængelige"
+
+#: class/class-widget-context.php:644
+msgid "Enter one location fragment per line. Use <strong>*</strong> character as a wildcard. Example: <code>category/peace/*</code> to target all posts in category <em>peace</em>."
+msgstr "Angiv en fraktion lokation pr. linje. Anvend <strong>*</strong> karakter som wildcard. F.eks. <code>kategori/fred/*</code> for at tagge alle indlæg i kategorien <em>fred</em>."
+
+#: class/class-widget-context.php:627
+msgid "All author archives"
+msgstr "Alle forfatterens arkiver"
+
+#: class/class-widget-context.php:626
+msgid "All tag archives"
+msgstr "Alle Tags arkiver"
+
+#: class/class-widget-context.php:625
+msgid "All category archives"
+msgstr "Alle katerori arkiver"
+
+#: class/class-widget-context.php:624
+msgid "Yearly archives"
+msgstr "Årlige arkiver"
+
+#: class/class-widget-context.php:623
+msgid "Monthly archives"
+msgstr "Månedlige arkiver"
+
+#: class/class-widget-context.php:622
+msgid "Daily archives"
+msgstr "Daglige arkiver"
+
+#: class/class-widget-context.php:621
+msgid "All date archives"
+msgstr "Alle dato arkiver"
+
+#: class/class-widget-context.php:620
+msgid "All archives"
+msgstr "Alle arkiver"
+
+#: class/class-widget-context.php:619
+msgid "404 error page"
+msgstr "404 Fejl side"
+
+#: class/class-widget-context.php:618
+msgid "Search results"
+msgstr "Søgeresultater"
+
+#: class/class-widget-context.php:617
+msgid "All attachments"
+msgstr "Alle vedhæftninger"
+
+#: class/class-widget-context.php:616
+msgid "All pages"
+msgstr "Alle sider"
+
+#: class/class-widget-context.php:615
+msgid "All posts"
+msgstr "Alle indlæg"
+
+#: class/class-widget-context.php:614
+msgid "All posts, pages and custom post types"
+msgstr "Alle indlæg, sider og brugerdefinerede indlægstyper"
+
+#: class/class-widget-context.php:613
+msgid "Blog page"
+msgstr "Blog side"
+
+#: class/class-widget-context.php:612
+msgid "Front page"
+msgstr "Forside"
+
+#: class/class-widget-context.php:567 class/class-widget-context.php:887
+#: class/class-widget-context.php:948
+msgid "Widget Context Settings"
+msgstr "Widget Kontekst indstillinger"
+
+#: class/class-widget-context.php:553
+msgid "No widget controls enabled."
+msgstr "Ingen aktiveret widget kontroller."
+
+#: class/class-widget-context.php:544
+msgid "No widget controls enabled. You can enable them in <a href=\"%s\">Widget Context settings</a>."
+msgstr "Ingen widget kontrol aktiveret. Du kan aktivere dem i <a href=\"%s\">Widget Kontekst indstillinger</a>."
+
+#: class/class-widget-context.php:126
+msgid "Enables private notes on widget context settings."
+msgstr "Giver mulighed for private noter på widgets centext indstillinger."
+
+#: class/class-widget-context.php:125
+msgid "Notes (invisible to public)"
+msgstr "Noter (usynlige for offentligheden)"
+
+#: class/class-widget-context.php:121
+msgid "Based on URL patterns."
+msgstr "Baseret på URL mønstrene."
+
+#: class/class-widget-context.php:120
+msgid "Target by URL"
+msgstr "URL målet"
+
+#: class/class-widget-context.php:116
+msgid "Based on standard WordPress template tags."
+msgstr "Baseret på standard WordPress skabelon tags."
+
+#: class/class-widget-context.php:115
+msgid "Global Sections"
+msgstr "Globale sektioner"
+
+#: class/class-widget-context.php:110
+msgid "Set the default logic to show or hide."
+msgstr "Indstille standardlogik til at vise eller skjule."
+
+#: class/modules/word-count/module.php:106
+msgid "words"
+msgstr "ord"
+
+#: class/modules/word-count/module.php:105
+msgid "than"
+msgstr "end"
+
+#: class/modules/word-count/module.php:105
+msgid "more"
+msgstr "mere"
+
+#: class/modules/word-count/module.php:105
+msgid "less"
+msgstr "færre"
+
+#: class/modules/word-count/module.php:104
+msgid "Has"
+msgstr "Har"
+
+#: class/modules/word-count/module.php:50
+msgid "Context based on word count on the page."
+msgstr "Kontekst baseret på ordoptælling på siden."
+
+#: class/modules/word-count/module.php:49
+msgid "Word Count"
+msgstr "Ordoptælling"
+
+#: class/modules/custom-post-types-taxonomies/module.php:156
+msgid "None."
+msgstr "Ingen."
+
+#: class/modules/custom-post-types-taxonomies/module.php:144
+msgid "All \"%s\" taxonomy archives"
+msgstr "Alle \"%s\" taksonomi arkiver"
+
+#: class/modules/custom-post-types-taxonomies/module.php:135
+msgid "Archive of \"%s\" posts"
+msgstr "Arkiv af \"%s\" indlæg"
+
+#: class/modules/custom-post-types-taxonomies/module.php:129
+msgid "All \"%s\" posts"
+msgstr "Alle \"%s\" indlæg"
+
+#: class/modules/custom-post-types-taxonomies/module.php:72
+msgid "Context based custom post types and taxonomies"
+msgstr "Kontekst baseret brugerdefinerede indlæg typer og taksonomier"
+
+#: class/modules/custom-post-types-taxonomies/module.php:71
+msgid "Custom Post Types and Taxonomies"
+msgstr "Brugerdefinerede indlæg typer og taksonomier"
+
+#: class/debug/debug-bar.php:89
+msgid "Toggle"
+msgstr "Toggle"
+
+#: class/debug/debug-bar.php:76
+msgid "Hiding <strong>%s</strong> in \"%s\""
+msgstr "Skjuler <strong>%s</strong> i \"%s\""
+
+#: class/debug/debug-bar.php:74
+msgid "Showing <strong>%s</strong> in \"%s\""
+msgstr "Viser <strong>%s</strong> i \"%s\""
+
+#: class/debug/debug-bar.php:67
+msgid "No"
+msgstr "Nej"
+
+#: class/debug/debug-bar.php:67
+msgid "Yes"
+msgstr "Ja"
+
+#: class/debug/debug-bar.php:51
+msgid "Default"
+msgstr "Standard"
+
+#: class/class-widget-context.php:601 class/debug/debug-bar.php:27
+msgid "Hide widget everywhere"
+msgstr "Skjul widget overalt"
+
+#: class/class-widget-context.php:600 class/debug/debug-bar.php:26
+msgid "Hide widget on selected"
+msgstr "Skjul widget på udvalgte"
+
+#: class/class-widget-context.php:599 class/debug/debug-bar.php:25
+msgid "Show widget on selected"
+msgstr "Vis widget på udvalgte"
+
+#: class/class-widget-context.php:598 class/debug/debug-bar.php:24
+msgid "Show widget everywhere"
+msgstr "Vis widget overalt"
+
+#. #-#-#-#-#  widget-context-code.pot (Widget Context 1.0.5)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: class/class-widget-context.php:109 class/class-widget-context.php:583
+#: class/class-widget-context.php:888 class/debug/debug-bar.php:7
+msgid "Widget Context"
+msgstr "Widget Kontekst"

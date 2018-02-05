@@ -1,0 +1,41 @@
+.review-item {
+	padding: 12px;
+	background: #f7f7f7;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	margin-bottom: 1rem;
+	position: relative;
+}
+.review-item i.fa-star {
+	color: #dab007;
+	margin-left: 0;
+}
+.review-stars i.inactive { 
+	color: #c6c6c6;
+}
+.review-author { 
+	font-weight: bold;
+	display: block;
+	margin-bottom: .5rem;
+}
+.review-author i {
+	opacity: 0.6;
+}
+.review-date {
+	opacity: .6;
+}
+.review-item i.fa-google {
+	position: absolute;
+	top: 24px;
+	right: 24px;
+	opacity: 0.5;
+}
+
+/* Minimum width of 992 pixels. */
+@media screen and (min-width: 992px) {
+	.review-item {
+		padding: 24px;
+	}
+}

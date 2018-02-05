@@ -1,0 +1,11 @@
+<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/map2.png" id="top-map" usemap="#top-map" border="0" width="578" height="371" orgWidth="578" orgHeight="371" alt="" />
+<map id="top-map" name="top-map">
+<area shape="rect" coords="576,369,578,371" alt="Image Map" style="outline:none;" title="Image Map" href="http://www.image-maps.com/index.php?aff=mapped_users_0" />
+<area id="Mississippi" alt="Mississippi" title="Mississippi" href="<?php bloginfo('url'); ?>/ms" shape="poly" coords="180,91,178,186,184,234,162,236,153,239,147,230,147,218,97,220,115,175,107,139,125,96" style="outline:none;" target="_self"     />
+<area id="Alabama" alt="Alabama" title="Alabama" href="<?php bloginfo('url'); ?>/al" shape="poly" coords="181,92,180,187,185,230,208,231,206,214,270,206,265,180,266,167,242,89" style="outline:none;" target="_self"     />
+<area id="Tennessee" alt="Tennessee" title="Tennessee" href="<?php bloginfo('url'); ?>/tn" shape="poly" coords="126,94,275,81,288,63,313,46,328,36,332,25,178,41,176,47,143,48" style="outline:none;" target="_self"     />
+<area  alt="North Carolina" title="North Carolina" href="<?php bloginfo('url'); ?>/nc" shape="poly" coords="274,80,279,67,303,54,322,40,330,32,332,26,465,2,477,26,459,58,422,95,390,71,364,73,357,66,320,68,304,80" style="outline:none;" target="_self"     />
+<area id="Georgia" alt="Georgia" title="Georgia" href="<?php bloginfo('url'); ?>/ga" shape="poly" coords="238,84,304,78,299,89,310,96,340,124,361,149,370,161,360,201,349,205,350,218,342,212,276,215,265,182,271,163,263,157" style="outline:none;" target="_self"     />
+<area id="South Carolina" alt="South Carolina" title="South Carolina" href="<?php bloginfo('url'); ?>/sc" shape="poly" coords="369,159,349,130,324,109,305,90,300,89,311,76,342,69,357,69,363,74,389,73,420,95,403,123" style="outline:none;" target="_self"     />
+<area id="Florida" alt="Florida" title="Florida" href="<?php bloginfo('url'); ?>/fl" shape="poly" coords="204,214,210,231,245,225,260,229,269,242,298,232,315,237,333,254,344,264,344,290,356,317,375,335,394,355,410,367,423,354,422,317,405,289,392,260,377,238,363,203,352,202,353,216,344,218,342,210,279,216,269,207" style="outline:none;" target="_self"     />
+</map>
