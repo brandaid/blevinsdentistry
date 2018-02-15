@@ -318,6 +318,15 @@ i.fa.fa-.fa-stack-1x.fa-inverse:before {
 	content: "\f27a";
 }
 
+.jumbotron {
+    background: #f7f7f7;
+    position: relative;
+    padding: 2rem 1rem;
+    margin-bottom: 1rem;
+}
+.jumbotron-with-bg .overlay {
+	background: #000000;
+}
 @media screen and (min-width: 992px) {
 	.flex-col {
     	padding: 48px;
