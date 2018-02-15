@@ -317,3 +317,9 @@ body {
 i.fa.fa-.fa-stack-1x.fa-inverse:before {
 	content: "\f27a";
 }
+
+@media screen and (min-width: 992px) {
+	.flex-col {
+    	padding: 48px;
+	}
+}
