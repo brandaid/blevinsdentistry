@@ -300,3 +300,20 @@ body b, body strong {
 		top: 50%;
 	}
 }
+
+
+
+/* NEW STYLES 15/02/2018 */
+
+#navbarNav {
+	font-size: 14px;
+}
+
+body {
+	text-rendering: optimizelegibility;
+    font-weight: 300;
+}
+
+i.fa.fa-.fa-stack-1x.fa-inverse:before {
+	content: "\f27a";
+}
