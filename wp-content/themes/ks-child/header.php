@@ -20,12 +20,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<meta name="apple-mobile-web-app-title"
 	      content="<?php bloginfo( 'name' ); ?> - <?php bloginfo( 'description' ); ?>">
 
-	<!-- Facebook Open Graph -->  
+	<!-- Facebook Open Graph -->
 	<meta property="og:title" content="<?php the_title(); ?>"/>
 	<meta property="og:description" content="<?php if ( empty( $post->post_excerpt ) ) {
     	echo wp_kses_post( wp_trim_words( $post->post_content, 50 ) );
 	} else {
-	    echo get_the_excerpt(); 
+	    echo get_the_excerpt();
 	} ?>"/>
 	<meta property="og:type" content="article"/>
 	<meta property="og:url" content="<?php the_permalink(); ?>"/>
@@ -36,10 +36,28 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<?php wp_head(); ?>
-	
+
 	<?php get_template_part( 'partials/list', 'schema' ); ?>
 	<?php get_template_part( 'partials/list', 'fonts' ); ?>
 	<?php get_template_part('styles'); ?>
+	<!-- Facebook Pixel Code -->
+	<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '2089701027948382');
+  fbq('track', 'PageView');
+	</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=2089701027948382&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
 </head>
 
 <body <?php body_class(); ?>>
@@ -48,7 +66,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<div id="case-studies" class="text-center hidden-sm-down burst">
 		<i class="fa fa-window-close close-case"></i>
 		<img src="<?php bloginfo('url'); ?>/wp-content/uploads/2017/09/patient-special-burst.png" alt="Patient Specials" class="" />
-	</div> 
+	</div>
 
 	<!-- <div id="case-studies" class="text-center hidden-sm-down">
 		<i class="fa fa-window-close close-case burst-close"></i>
@@ -56,9 +74,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<p>View Dr. Blevins' Incredible Smile Gallery</p>
 		<a href="<?php bloginfo('url'); ?>/smile-gallery" class="btn btn-primary">Go <i class="fa fa-angle-right"></i></a>
 	</div> -->
-	
+
 	<?php get_template_part( 'partials/list', 'modals' ); ?>
-	
+
 	<?php if (get_theme_mod ( 'themeslug_bar_hello_on') == 'value1'  ) : ?>
 		<?php get_template_part( 'partials/bar', 'hello' ); ?>
 	<?php endif; ?>
@@ -80,7 +98,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				</div><!-- /.container -->
 			</div>
 		<?php endif; ?>
-		
+
 		<?php if (get_theme_mod ( 'themeslug_nav_top_on') == 'value1'  ) : ?>
 			<?php get_template_part( 'partials/nav', 'top' ); ?>
 		<?php endif; ?>
@@ -111,11 +129,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 		</nav><!-- .site-navigation -->
 
 	</div><!-- .wrapper-navbar end -->
-	
+
 	<div id="main-content">
-		
+
 		<?php if (!is_page('reviews')) : ?>
 			<?php if (get_theme_mod ( 'themeslug_bar_reviews_on') == 'value1'  ) : ?>
 				<?php get_template_part( 'partials/bar', 'reviews' ); ?>
-			<?php endif; ?>	
+			<?php endif; ?>
 		<?php endif; ?>
