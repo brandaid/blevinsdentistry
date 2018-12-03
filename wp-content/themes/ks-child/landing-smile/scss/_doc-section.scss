@@ -1,0 +1,28 @@
+.avatar-doc {
+	img {
+		border-radius: 50%;
+		display: inline-block;
+		border: 16px solid $brand-secondary;
+		margin-bottom: 30px;
+	}
+}
+.doc-copy {
+	max-width: 640px;
+	padding: 0 35px;
+	@include center;
+	line-height: 1.6em;
+}
+// 768px
+@media all and (min-width: $screen-portrait) {
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+	.doc-copy {
+		font-size: 22px;
+	}
+}
+
+// 1200px
+@media all and (min-width: $screen-desktop) {
+}

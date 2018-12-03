@@ -1,0 +1,28 @@
+.header {
+	background: white;
+	text-align: center;
+	padding: 15px 15px 10px 15px;
+	-webkit-box-shadow: 0 0 200px 0 rgba(0,0,0,0.1);
+	box-shadow: 0 0 200px 0 rgba(0,0,0,0.1);
+}
+.brand {
+	max-width: 210px;
+}
+
+// 768px
+@media all and (min-width: $screen-portrait) {
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+	.header {
+		padding: 25px 0px;
+	}
+	.brand {
+		max-width: 260px;
+	}
+}
+
+// 1200px
+@media all and (min-width: $screen-desktop) {
+}

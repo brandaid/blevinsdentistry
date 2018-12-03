@@ -1,0 +1,67 @@
+#login {
+	padding-top: 40px;
+	label {
+		display: block;
+		font-weight: normal !important;
+	}
+	input.input {
+		font-size: 16px !important;
+		font-weight: normal !important;
+		height: 40px;
+	}
+}
+
+body.login {
+	background-image: url(images/bkg.jpg) !important;
+	-webkit-background-size: cover !important;
+	-moz-background-size: cover !important;
+	-o-background-size: cover !important;
+	background-size: cover !important;
+}
+.login #nav a, .login #backtoblog a {
+	text-shadow: none;
+	color: $brand-primary !important;
+}
+.login #nav a:hover, .login #backtoblog a:hover {
+	text-shadow: none;
+	text-decoration: underline !important;
+}
+.login h1 a {
+	background-image: url(images/brand.png) !important;
+	background-size: 149px 200px !important;
+	background-position: center !important;
+	height: 200px;
+	width: 149px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+.message {
+	background-color: $brand-primary !important;
+	border: none !important;
+	color: #FFF !important;
+	margin-bottom: 30px !important;
+	margin-top: 20px !important;
+}
+#login {
+	max-width: 350px;
+	width: 100%;
+}
+#registerform p {
+	display: inline-block;
+	margin-right: 23px;
+	width: 46%;
+}
+#pass_strength_msg {
+	display: block !important;
+}
+#wp-submit {
+	background: $brand-primary !important;
+	border: none !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	color: #FFF !important;
+	text-shadow: none !important;
+}
+#wp-submit:hover {
+	background: darken($brand-primary, 10%) !important;
+}

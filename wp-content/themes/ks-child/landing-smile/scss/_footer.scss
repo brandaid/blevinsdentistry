@@ -1,0 +1,44 @@
+.footer {
+	background: url(../images/footer.jpg) no-repeat center center;
+	background-size: cover;
+	padding: 60px 0;
+	position: relative;
+	text-align: center;
+	&:before {
+		content: "";
+		background: rgba(9,73,122, .8);
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		display: block;
+		z-index: 99;
+	}
+	a.tel {
+		color: $brand-secondary;
+	}
+	.container {
+		position: relative;
+		z-index: 999;
+	}
+	.h1, p {
+		color: white;
+		margin-bottom: 35px;
+	}
+	p {
+		font-size: 20px;
+	}
+}
+
+// 768px
+@media all and (min-width: $screen-portrait) {
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+}
+
+// 1200px
+@media all and (min-width: $screen-desktop) {
+}

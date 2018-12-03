@@ -1,0 +1,106 @@
+.globe {
+	max-width: 950px;
+	@include center;
+}	
+.avatar {
+	border-radius: 50%;
+	max-width: 100px;
+}
+.box-testimonial {
+	background: white;
+	-webkit-box-shadow: 0 0 20px 0 rgba(0,0,0,0.05);
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.05);
+	padding: 35px 20px;
+	margin: 35px 0;
+	position: relative;
+	.name {
+		font-size: 14px;
+	}
+	&:before {
+		content: "";
+	    position: absolute;
+	    left: 46%;                         // half way down (vertical center).
+	    margin-top: -15px;                // adjust position, arrow has a height of 30px. 
+	    bottom:-24px;
+	    border: solid 12px transparent;
+	    border-top-color: #FFF;
+	    z-index: 1;
+	}
+}
+
+// 768px
+@media all and (min-width: $screen-portrait) {
+	.globe {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		figure {
+			order: 1;
+			width: 20%;
+		}
+		.box-testimonial {
+			order: 2;
+			width: 80%;
+			text-align: left;
+
+			padding: 35px;
+
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+		&.to-right {
+			figure {
+				order: 2;
+			}
+			.box-testimonial {
+				order: 1;
+				text-align: right;
+				&:before {
+					content: "";
+				    position: absolute;
+				    bottom: auto;
+				    top: 50%;                         // half way down (vertical center).
+				    margin-top: -15px;                // adjust position, arrow has a height of 30px. 
+				    left: auto;
+				    right: -24px;
+				    border: solid 12px transparent;
+				    border-left-color: #FFF;
+				    z-index: 1;
+				}
+			}
+		}
+	}
+	.box-testimonial {
+		&:before {
+			content: "";
+		    position: absolute;
+		    bottom: auto;
+		    top: 50%;                         // half way down (vertical center).
+		    margin-top: -15px;                // adjust position, arrow has a height of 30px. 
+		    left:-24px;
+		    border: solid 12px transparent;
+		    border-right-color: #FFF;
+		    z-index: 1;
+		}
+	}
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+}
+
+// 1200px
+@media all and (min-width: $screen-desktop) {
+	.globe {
+		.box-testimonial {
+			padding: 50px;
+			p {
+				font-size: 19px;
+			}
+			.name {
+				font-size: 16px;
+			}
+		}
+	}
+}

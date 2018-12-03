@@ -1,0 +1,87 @@
+a, a:hover, a:active, a:focus {
+	text-decoration: none;
+	-webkit-transition: all 230ms ease-in-out;
+	-moz-transition: all 230ms ease-in-out;
+	-ms-transition: all 230ms ease-in-out;
+	-o-transition: all 230ms ease-in-out;
+	transition: all 230ms ease-in-out;
+}
+.container {
+	padding-left: 15px;
+	padding-right: 15px;
+	@include border-box;
+}
+
+.box {
+	padding: 40px 0;
+}
+
+.gray {
+	background: $gray-light;
+}
+.center {
+	text-align: center;
+}
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+.testimonial {
+	padding: 30px 0;
+	p {
+		margin-bottom: 5px;
+	}
+}
+
+.margin-top {
+	margin-top: 50px;
+}
+
+.gradient {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f6f4f3+0,ffffff+100 */
+	background: #f6f4f3; /* Old browsers */
+	background: -moz-linear-gradient(top, #f6f4f3 0%, #ffffff 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #f6f4f3 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #f6f4f3 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f4f3', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+// 768px
+@media all and (min-width: $screen-portrait) {
+	.container {
+		@include center;
+		max-width: 750px;
+	}
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+	.container {
+		max-width: 970px;
+	}
+
+	.box {
+		padding: 60px 0;
+	}
+
+	.testimonial {
+		padding: 50px 0;
+		p {
+			font-size: 21px;
+		}
+	}
+}
+
+// 1200px
+@media all and (min-width: $screen-desktop) {
+	.container {
+		max-width: 1170px;
+	}
+	.box {
+		padding: 90px 0;
+	}
+}

@@ -1,0 +1,153 @@
+.hero-text {
+	text-align: center;
+	h1, p {
+		@include center;
+	}
+	h1 {
+		max-width: 80%;
+		@include center;
+	}
+}
+
+.box-video {
+	background: #f0edec;
+	padding: 20px;
+	margin-bottom: 40px;
+	p, small {
+		color: #424242;
+	}
+	p {
+		font-size: 14px;
+		margin-bottom: 14px;
+		font-style: italic;
+		line-height: 1.4em;
+		font-weight: 400;
+		font-family: $secondary-font;
+	}
+	small {
+		font-family: $heavy;
+		font-size: 13px;
+	}
+}
+
+.box-copy-form {
+	text-align: center;
+	h3, h4 {
+		font-family: $heavy;
+	}
+	h3 {
+		font-size: 21px;
+	}
+	h4 {
+		color: $brand-tertiary;
+		font-size: 18px;
+	}
+
+}
+
+.form-top-message.emmaEditDotBox {
+	display: none!important;
+}
+.e2ma_signup_form {
+	padding: 0!important;
+}
+.form-emma,
+#e2ma_signup {
+	text-align: left;
+	margin-bottom: 50px;
+	label, input {
+		width: 100%;
+		display: block;
+	}
+	label,
+	.e2ma_signup_form_label {
+		margin-bottom: 10px;
+		color: #09497a;
+		font-family: $primary-font;
+		font-size: 16px;
+	}
+	input {
+		border: 1px solid #8aa3af;
+		height: 45px;
+		padding: 10px;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		font-size: 16px;
+		font-family: $medium;
+		border-radius: 0;
+		margin-bottom: 15px;
+		-webkit-box-shadow: 0 0 20px 0 rgba(0,0,0,0.04);
+		box-shadow: 0 0 20px 0 rgba(0,0,0,0.04);
+	}
+	#e2ma_signup_submit_button,
+	button.cta {
+		font-family: $heavy;
+		font-weight: normal;
+		-webkit-appearance: none;
+		border: 0;
+		padding: 15px;
+		cursor: pointer;
+		border-radius: 4px;
+	}
+
+	.e2ma_signup_form_required_asterix {
+		float: left;
+		color: $brand-secondary; 
+	}
+}
+
+
+.e2ma_signup_form_groups,
+.e2ma_signup_form_required_footnote,
+.e2ma_signup_message {
+	display: none!important
+}
+// 768px
+@media all and (min-width: $screen-portrait) {
+	.hero-text {
+		h1 {
+			max-width: 680px;
+		}
+	}
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+	.hero-text {
+		h1 {
+			font-size: 58px;
+			line-height: 1.1em;
+		}
+		p {
+			line-height: 1.4em;
+			font-size: 22px;
+			max-width: 550px;
+		}
+	}
+
+	#e2ma_signup_submit_button {
+		font-size: 20px!important;
+		height: auto!important;
+		text-transform: inherit!;
+	}
+}
+
+// 1200px
+@media all and (min-width: $screen-desktop) {
+	.box-video {
+		margin-bottom: 80px;
+	}
+	.box-copy-form {
+		h3 {
+			font-size: 24px;
+		}
+		h4 {
+			font-size: 20px;
+		}
+
+	}
+	.box-copy-form {
+		padding-left: 40px;
+	}
+}
